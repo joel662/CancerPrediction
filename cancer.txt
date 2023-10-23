@@ -1,0 +1,161 @@
+Cancer_Type,Lump,Cough,Chest Pain,Shortness of Breath,Weight Loss,Fatigue,Changes in Bowel Habits,Changes in Urination,Skin Changes,Jaundice,Skin Lesions,Infections,Bruising/Bleeding,Swollen Lymph Nodes,Blood in Urine,Pain,Fever,Headache,Nausea,Vomiting
+Breast Cancer,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Lung Cancer,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Colorectal Cancer,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+Prostate Cancer,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Ovarian Cancer,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+Pancreatic Cancer,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Skin Cancer (Melanoma),0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0
+Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Brain Tumor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Bladder Cancer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+Liver Cancer,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Kidney Cancer,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+Cervical Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Esophageal Cancer,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Gastric Cancer,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+Thyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Prostate Cancer,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Liver Cancer,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Bone Cancer,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Ovarian Cancer,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+Pancreatic Cancer,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Gallbladder Cancer,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Stomach Cancer,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+Hepatocellular Carcinoma,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Melanoma,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0
+Thyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Non-Hodgkin Lymphoma,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Oral Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Osteosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Endometrial Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Thymoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Soft Tissue Sarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Lymphoma,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Glioblastoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Mesothelioma,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Multiple Myeloma,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Thyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Uterine Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Renal Cell Carcinoma,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+Nasopharyngeal Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Small Cell Lung Cancer,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Prostate Cancer,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Thyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Lymphocytic Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Merkel Cell Carcinoma,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0
+Neuroblastoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Wilms Tumor,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+Chronic Myeloid Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Ewing Sarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Retinoblastoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Testicular Cancer,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Burkitt Lymphoma,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Ovarian Cancer,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+Colon Cancer,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+Rhabdomyosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Hodgkin Lymphoma,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Endometrial Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Mesenchymal Chondrosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Thyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Testicular Cancer,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Mucosal Melanoma,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0
+Lung Carcinoid Tumor,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Uterine Sarcoma,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Osteosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Neuroendocrine Tumor,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Chondrosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Desmoplastic Small Round Cell Tumor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Ependymoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Fibrosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Granulosa Cell Tumor,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Hepatoblastoma,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Leiomyosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Myelodysplastic Syndrome,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Osteosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Renal Medullary Carcinoma,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+Rhabdoid Tumor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Thymic Carcinoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Waldenström Macroglobulinemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Desmoplastic Melanoma,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0
+Inflammatory Breast Cancer,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Clear Cell Sarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Male Breast Cancer,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Choriocarcinoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Pleural Mesothelioma,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Liposarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Peripheral T-Cell Lymphoma,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Meningioma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+Kaposi's Sarcoma,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Myelomonocytic Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Testicular Germ Cell Tumor,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cholangiocarcinoma,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Mouth Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Basal Cell Carcinoma,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+Burkitt Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Hairy Cell Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Hepatocellular Carcinoma,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Kaposi's Sarcoma,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Myelomonocytic Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Testicular Germ Cell Tumor,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cholangiocarcinoma,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Mouth Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Basal Cell Carcinoma,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+Burkitt Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Hairy Cell Leukemia,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Gastrointestinal Stromal Tumor (GIST),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Penile Cancer,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Salivary Gland Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Small Intestine Cancer,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+Thyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Acute Lymphoblastic Leukemia (ALL),0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Anaplastic Thyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Bile Duct Cancer,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Childhood Acute Myeloid Leukemia/Other Myeloid Malignancies,0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Carcinoid Tumors,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Clear Cell Sarcoma of Soft Tissue,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Chronic Myelomonocytic Leukemia (CMML),0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Cutaneous T-Cell Lymphoma (CTCL),0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Fallopian Tube Cancer,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+Gallbladder Cancer,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Inflammatory Breast Cancer (IBC),1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Myeloproliferative Neoplasms (MPN),0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Neuroendocrine Tumors (NETs),0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Peritoneal Mesothelioma,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pleuropulmonary Blastoma,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Primary Central Nervous System (CNS) Lymphoma,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Small Cell Lung Carcinoma,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Spinal Cord Tumors,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Urethral Cancer,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Uveal Melanoma,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0
+Vaginal Cancer,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Testicular Cancer,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Parathyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Adrenocortical Carcinoma,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Ovarian Low Malignant Potential (LMP) Tumors,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+Breast Carcinoma in Situ,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Langerhans Cell Histiocytosis (LCH),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Penile Cancer,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Salivary Gland Cancer,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Small Intestine Cancer,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+Thyroid Cancer,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Adrenal Gland Cancer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Ampullary Cancer,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Appendix Cancer,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Chondrosarcoma,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Chronic Myelomonocytic Leukemia (CMML),0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Cutaneous T-Cell Lymphoma (CTCL),0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Fallopian Tube Cancer,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0
+Gallbladder Cancer,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Inflammatory Breast Cancer (IBC),1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0
+Myeloproliferative Neoplasms (MPN),0,0,0,0,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Neuroendocrine Tumors (NETs),0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Peritoneal Mesothelioma,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pleuropulmonary Blastoma,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Primary Central Nervous System (CNS) Lymphoma,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0
+Small Cell Lung Carcinoma,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Spinal Cord Tumors,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Urethral Cancer,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Uveal Melanoma,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0
+Vaginal Cancer,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0

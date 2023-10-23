@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cancer Prediction</title>
+</head>
+
+<body>
+    <h1>Cancer Prediction</h1>
+    <form id="prediction-form" method="post">
+        <label for="Lump">Lump (0 or 1):</label>
+        <input type="text" name="Lump" placeholder="Enter 0 or 1"><br>
+
+        <label for="Cough">Cough (0 or 1):</label>
+        <input type="text" name="Cough" placeholder="Enter 0 or 1"><br>
+
+        <label for="Chest Pain">Chest Pain (0 or 1):</label>
+        <input type="text" name="Chest Pain" placeholder="Enter 0 or 1"><br>
+
+        <label for="Shortness Of Breath">Shortness of Breath (0 or 1):</label>
+        <input type="text" name="Shortness Of Breath" placeholder="Enter 0 or 1"><br>
+
+        <label for="Weight Loss">Weight Loss (0 or 1):</label>
+        <input type="text" name="Weight Loss" placeholder="Enter 0 or 1"><br>
+
+        <label for="Fatigue">Fatigue (0 or 1):</label>
+        <input type="text" name="Fatigue" placeholder="Enter 0 or 1"><br>
+
+        <label for="Changes In Bowel Habits">Changes in Bowel Habits (0 or 1):</label>
+        <input type="text" name="Changes In Bowel Habits" placeholder="Enter 0 or 1"><br>
+
+        <label for="Changes In Urination">Changes in Urination (0 or 1):</label>
+        <input type="text" name="Changes In Urination" placeholder="Enter 0 or 1"><br>
+
+        <label for="Skin Changes">Skin Changes (0 or 1):</label>
+        <input type="text" name="Skin Changes" placeholder="Enter 0 or 1"><br>
+
+        <label for="Jaundice">Jaundice (0 or 1):</label>
+        <input type="text" name="Jaundice" placeholder="Enter 0 or 1"><br>
+
+        <label for="Skin Lesions">Skin Lesions (0 or 1):</label>
+        <input type="text" name="Skin Lesions" placeholder="Enter 0 or 1"><br>
+
+        <label for="Infections">Infections (0 or 1):</label>
+        <input type="text" name="Infections" placeholder="Enter 0 or 1"><br>
+
+        <label for="Bruising Bleeding">Bruising/Bleeding (0 or 1):</label>
+        <input type="text" name="Bruising Bleeding" placeholder="Enter 0 or 1"><br>
+
+        <label for="Swollen Lymph Nodes">Swollen Lymph Nodes (0 or 1):</label>
+        <input type="text" name="Swollen Lymph Nodes" placeholder="Enter 0 or 1"><br>
+
+        <label for="Blood In Urine">Blood in Urine (0 or 1):</label>
+        <input type="text" name="Blood In Urine" placeholder="Enter 0 or 1"><br>
+
+        <label for="Pain">Pain (0 or 1):</label>
+        <input type="text" name="Pain" placeholder="Enter 0 or 1"><br>
+
+        <label for="Fever">Fever (0 or 1):</label>
+        <input type="text" name="Fever" placeholder="Enter 0 or 1"><br>
+
+        <label for="Headache">Headache (0 or 1):</label>
+        <input type="text" name="Headache" placeholder="Enter 0 or 1"><br>
+
+        <label for="Nausea">Nausea (0 or 1):</label>
+        <input type="text" name="Nausea" placeholder="Enter 0 or 1"><br>
+
+        <label for="Vomiting">Vomiting (0 or 1):</label>
+        <input type="text" name="Vomiting" placeholder="Enter 0 or 1"><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    <div id="prediction-result"></div>
+
+    <script>
+        // JavaScript code to handle form submission and result display
+        document.getElementById('prediction-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            console.log(formData)
+            fetch('/', {
+                    method: 'POST',
+                    body: formData,
+                })
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('prediction-result').innerHTML = "Predicted Cancer Type: " + data;
+                });
+        });
+    </script>
+</body>
+
+</html>
